@@ -1,6 +1,9 @@
 {
   "name": "serverless-plugin-api-gateway-auth",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/nochtap/serverless-plugin-api-gateway-auth"
+  },
+  "version": "1.0.1",
   "description": "Serverless plugin: Adds the ability to configure AWS_IAM for your API Gateway endpoints, and \"Invoke with caller credentials\"",
   "main": "ApiGatewayAuthExtension.js",
   "scripts": {
