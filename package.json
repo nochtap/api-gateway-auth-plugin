@@ -1,5 +1,5 @@
 {
-  "name": "api-gateway-auth-plugin",
+  "name": "serverless-plugin-api-gateway-auth",
   "version": "1.0.0",
   "description": "Serverless plugin: Adds the ability to configure AWS_IAM for your API Gateway endpoints, and \"Invoke with caller credentials\"",
   "main": "ApiGatewayAuthExtension.js",
@@ -10,9 +10,5 @@
     "name": "Nacho García"
   },
   "license": "ISC",
-  "readme": "ERROR: No README data found!",
-  "_id": "api-gateway-auth-plugin@1.0.0",
-  "_shasum": "c3707bd8b068b70fed951d65dcd5230e5a5e8a95",
-  "_from": "../../../../Desktop/ApiGatewayAuthExtension",
-  "_resolved": "file:../../../../Desktop/ApiGatewayAuthExtension"
+  "readme": "README.md"  
 }
