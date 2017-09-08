@@ -42,7 +42,6 @@ class ApiGatewayAuthExtension {
 	_compileEvents() {
 		const tmp = this.serverless.service.provider.compiledCloudFormationTemplate;
 		const resources = tmp.Resources;
-		const iamFunctions = this.serverless.service.custom.useApiGatewayIAMAuthForLambdaFunctions;
 
 		this.serverless.service.getAllFunctions().forEach((functionName) => {
 			const functionObject = this.serverless.service.functions[functionName];
